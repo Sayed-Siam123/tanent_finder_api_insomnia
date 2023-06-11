@@ -1,31 +1,71 @@
 _id: req_097acfc21c45407d9c9b02e113fb8c9e
 type: Request
 parentId: fld_5e5c0ac321a54943a48fdbab5f6ac065
-modified: 1686466753784
+modified: 1686481888222
 created: 1686418318967
 url: http://127.0.0.1:3000/api/v1/tenant/create-post
 name: Create Tenant Post
 description: ""
 method: POST
 body:
-  mimeType: application/json
-  text: |-
-    {
-    	"title" : "Room rent for December",
-    	"description" : "1 bed, 1 toilet, 1 baranda",
-    	"address" : "Banshundhora R/A",
-    	"floor" : "4",
-    	"contact_number" : "01673832180",
-    	"location" : "lat-lng",
-    	"price" : "5000",
-    	"discounted_price" : "0",
-    	"status" : "pending",
-    	"area_id" : "2"
-    }
+  mimeType: multipart/form-data
+  params:
+    - id: pair_d7373d378c5e4dbea5cc00e196cb15ac
+      name: title
+      value: Room rent for December
+      description: ""
+    - id: pair_4fb071bfd3574dafa59635f003706d4f
+      name: description
+      value: 1 bed, 1 toilet, 1 baranda
+      description: ""
+    - id: pair_4953047dda4943d7a86a639d9632a88c
+      name: address
+      value: Banshundhora R/A
+      description: ""
+    - id: pair_719b1d992de8476d89f5e2b64c7f240c
+      name: floor
+      value: "4"
+      description: ""
+    - id: pair_f95fa182fb08404ab76a8496b01f2f68
+      name: contact_number
+      value: "01673832180"
+      description: ""
+    - id: pair_d4e54b610c6148aaa3edd240c2460ac4
+      name: location
+      value: lat-lng
+      description: ""
+    - id: pair_2863a29f5fd14bbfab680a23bef92e03
+      name: price
+      value: "5000"
+      description: ""
+    - id: pair_2cbd5f0a795a4270b21149486961d5c9
+      name: discounted_price
+      value: "0"
+      description: ""
+    - id: pair_3b5a36ac93414dd3b1b34a763ad81f89
+      name: status
+      value: pending
+      description: ""
+    - id: pair_7a6606536bef4065a932f35035646847
+      name: area_id
+      value: "2"
+      description: ""
+    - id: pair_df3fe6c1f7264c608d3d0b3513cea872
+      name: post_photos
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/media/Downloads/Abu Sayed Siam App Dev.jpg
+    - id: pair_db7c9fde3b0c462ca8b6532052212050
+      name: post_photos
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/media/Downloads/355-3557482_flutter-logo-png-transparent-png.png
 parameters: []
 headers:
   - name: Content-Type
-    value: application/json
+    value: multipart/form-data
 authentication:
   type: bearer
   token: "{{ _.token }}"

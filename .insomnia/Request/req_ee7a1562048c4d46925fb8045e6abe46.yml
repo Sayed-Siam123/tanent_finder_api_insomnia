@@ -1,7 +1,7 @@
 _id: req_ee7a1562048c4d46925fb8045e6abe46
 type: Request
 parentId: fld_add83622a1bd47f194d6429cdbe037c9
-modified: 1686332439984
+modified: 1686483383312
 created: 1686329139268
 url: http://127.0.0.1:3000/api/v1/role/create-role
 name: Create Role
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"role_name" : "User"
+    	"role_name" : "SAdmin"
     }
 parameters: []
 headers:
