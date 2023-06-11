@@ -1,9 +1,9 @@
 _id: req_8b796263f47648cb82081df3e6b20ff6
 type: Request
 parentId: fld_5e5c0ac321a54943a48fdbab5f6ac065
-modified: 1686467665003
+modified: 1686468716035
 created: 1686467647814
-url: http://127.0.0.1:3000/api/v1/tenant/get-all-post_by_user
+url: http://127.0.0.1:3000/api/v1/tenant/get-all-post-by-user
 name: Get all Tenant Post by user
 description: ""
 method: GET
