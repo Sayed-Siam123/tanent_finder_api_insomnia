@@ -1,7 +1,7 @@
 _id: req_097acfc21c45407d9c9b02e113fb8c9e
 type: Request
 parentId: fld_5e5c0ac321a54943a48fdbab5f6ac065
-modified: 1686420712498
+modified: 1686466753784
 created: 1686418318967
 url: http://127.0.0.1:3000/api/v1/tenant/create-post
 name: Create Tenant Post
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"title" : "Room rent for July",
+    	"title" : "Room rent for December",
     	"description" : "1 bed, 1 toilet, 1 baranda",
     	"address" : "Banshundhora R/A",
     	"floor" : "4",

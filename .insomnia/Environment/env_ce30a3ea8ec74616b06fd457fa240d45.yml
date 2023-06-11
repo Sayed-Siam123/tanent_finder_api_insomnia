@@ -1,11 +1,11 @@
 _id: env_ce30a3ea8ec74616b06fd457fa240d45
 type: Environment
 parentId: env_6def9a2f3f0c48e7aeaba19f125917b4
-modified: 1686418743179
+modified: 1686467756748
 created: 1686418500992
 name: Dev Env
 data:
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJtc2lhbTE4QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjg2NDE4NzI4LCJleHAiOjE2OTQxOTQ3Mjh9.dfCqE9Zzaogri6PZiesBGuoQsZz7A4z2MxsyMJFDr0A
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJtc2lhbTE4QGdtYWlsLmNvbSIsInJvbGUiOiJ1c2VyIiwiaWF0IjoxNjg2NDY1OTg4LCJleHAiOjE2OTQyNDE5ODh9.BMYlVcTJ7SVhlnNo48NOGUz4YYrD1TE6MAUHjn7cTWA
 dataPropertyOrder:
   "&":
     - token

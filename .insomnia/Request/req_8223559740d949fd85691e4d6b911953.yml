@@ -1,0 +1,25 @@
+_id: req_8223559740d949fd85691e4d6b911953
+type: Request
+parentId: fld_5e5c0ac321a54943a48fdbab5f6ac065
+modified: 1686466676321
+created: 1686466658535
+url: http://127.0.0.1:3000/api/v1/tenant/get-all-post_by_area/2
+name: Get all Tenant Post by Area ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+  disabled: false
+metaSortKey: -1686416899623.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

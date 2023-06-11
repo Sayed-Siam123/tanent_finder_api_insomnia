@@ -1,0 +1,25 @@
+_id: req_cb74612f16884074bd1fd31b7033cb74
+type: Request
+parentId: fld_5e5c0ac321a54943a48fdbab5f6ac065
+modified: 1686467840674
+created: 1686466952120
+url: http://127.0.0.1:3000/api/v1/tenant/delete-post-by-id/f94540f3-3f7c-41e7-9b79-d618855fdbce
+name: Delete Tenant Post by post ID
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+  disabled: false
+metaSortKey: -1686416663066.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

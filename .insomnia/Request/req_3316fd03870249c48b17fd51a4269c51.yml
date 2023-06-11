@@ -1,7 +1,7 @@
 _id: req_3316fd03870249c48b17fd51a4269c51
 type: Request
 parentId: fld_746a7b6426a746d8ac5d3244ab6bc123
-modified: 1686401422079
+modified: 1686467780038
 created: 1686338661791
 url: http://127.0.0.1:3000/api/v1/authentication/login
 name: Login
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email" : "msiam18@gmail.com",
+    	"email" : "msiam@gmail.com",
     	"password" : "12345678"
     }
 parameters: []
