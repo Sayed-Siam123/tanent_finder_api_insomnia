@@ -1,0 +1,21 @@
+_id: req_0288c8a081fc443da4d729cba6eccf57
+type: Request
+parentId: wrk_69104dd92088477097a7202e66c64f52
+modified: 1686290742219
+created: 1686290713825
+url: http://127.0.0.1:3000/api/v1/demo/get-one-data/ea1125f7-bdcb-45f6-a0e2-8d64596e653c
+name: Get One
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1667207395982.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

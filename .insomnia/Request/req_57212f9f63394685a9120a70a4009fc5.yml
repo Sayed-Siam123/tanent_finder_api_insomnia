@@ -1,0 +1,30 @@
+_id: req_57212f9f63394685a9120a70a4009fc5
+type: Request
+parentId: wrk_69104dd92088477097a7202e66c64f52
+modified: 1686290263484
+created: 1667759210505
+url: http://127.0.0.1:3000/api/v1/demo/create-data
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+    	"email" : "jsadk",
+    	"name" : "Siam",
+    	"phone" : "013021"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667759210505
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

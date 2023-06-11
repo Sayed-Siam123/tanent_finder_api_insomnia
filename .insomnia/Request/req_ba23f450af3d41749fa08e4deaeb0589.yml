@@ -1,0 +1,34 @@
+_id: req_ba23f450af3d41749fa08e4deaeb0589
+type: Request
+parentId: fld_746a7b6426a746d8ac5d3244ab6bc123
+modified: 1686401412726
+created: 1686334267602
+url: http://127.0.0.1:3000/api/v1/authentication/signup
+name: Registration
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"first_name" : "Sayed",
+    	"last_name" : "Siam",
+    	"email" : "msiam18@gmail.com",
+    	"phone_number" : "01673832180",
+    	"password" : "12345678",
+    	"avatar" : "avatar.jpg",
+    	"ip_address" : "192.168.0.1"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686334267602
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

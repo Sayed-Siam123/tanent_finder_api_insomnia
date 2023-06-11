@@ -1,0 +1,21 @@
+_id: req_37ca6ab733b44d05adb48b45404fdbc3
+type: Request
+parentId: fld_b123df38e6874ac4b683a94669436cbd
+modified: 1686417549843
+created: 1686417449037
+url: http://127.0.0.1:3000/api/v1/area/delete-area/08289053-f8c5-46ba-8ca0-8c193630a11f
+name: Delete Single Area with uuid
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686339402533.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

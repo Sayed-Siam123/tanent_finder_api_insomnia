@@ -1,0 +1,21 @@
+_id: req_591d5d28d8bf4ce88f23ffba5cc703e5
+type: Request
+parentId: fld_add83622a1bd47f194d6429cdbe037c9
+modified: 1686333040116
+created: 1686332574415
+url: http://127.0.0.1:3000/api/v1/role/get-single-role/863f935c-2492-4899-a0ea-cd8c880511b7
+name: Get Single Role with uuid
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1678618041138.5068
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

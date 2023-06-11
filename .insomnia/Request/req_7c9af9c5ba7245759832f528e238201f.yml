@@ -1,0 +1,29 @@
+_id: req_7c9af9c5ba7245759832f528e238201f
+type: Request
+parentId: wrk_69104dd92088477097a7202e66c64f52
+modified: 1686252805917
+created: 1667845047313
+url: http://127.0.0.1:3000/api/v1/authentication/login
+name: Promise api test
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email" : "msiam18@gmail.com",
+    	"password" : "admin"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667023457808.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

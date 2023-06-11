@@ -1,0 +1,28 @@
+_id: req_d223221a18734a2c8f48085d34ef7f72
+type: Request
+parentId: wrk_69104dd92088477097a7202e66c64f52
+modified: 1686301749178
+created: 1686300859768
+url: http://127.0.0.1:3000/api/v1/demo/create-post/de28e769-a2f7-4ded-8926-903eefe8dbee
+name: Create Posts
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"body" : "posts posts posts posts posts"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1667575272330.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_88c1a9d4c4d14403ba3d98fa52288dd0
+type: Request
+parentId: fld_b123df38e6874ac4b683a94669436cbd
+modified: 1686417537261
+created: 1686416426509
+url: http://127.0.0.1:3000/api/v1/area/create-area
+name: Create Area
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"area_name" : "Jhalo kathi 11"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686416426509
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
