@@ -1,7 +1,7 @@
 _id: req_097acfc21c45407d9c9b02e113fb8c9e
 type: Request
 parentId: fld_5e5c0ac321a54943a48fdbab5f6ac065
-modified: 1686481888222
+modified: 1686552478037
 created: 1686418318967
 url: http://127.0.0.1:3000/api/v1/tenant/create-post
 name: Create Tenant Post
@@ -12,7 +12,7 @@ body:
   params:
     - id: pair_d7373d378c5e4dbea5cc00e196cb15ac
       name: title
-      value: Room rent for December
+      value: This is my second seeker post from SIAM
       description: ""
     - id: pair_4fb071bfd3574dafa59635f003706d4f
       name: description
@@ -55,13 +55,32 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /Users/media/Downloads/Abu Sayed Siam App Dev.jpg
+      fileName: /Users/mac/Desktop/Screenshot 2023-05-13 at 11.23.51 AM.png
     - id: pair_db7c9fde3b0c462ca8b6532052212050
       name: post_photos
       value: ""
       description: ""
       type: file
-      fileName: /Users/media/Downloads/355-3557482_flutter-logo-png-transparent-png.png
+      fileName: /Users/mac/Desktop/Screenshot 2023-05-13 at 11.23.51 AM.png
+    - id: pair_f2d7c51e1f714f93941587a0b47d5c78
+      name: post_photos
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/mac/Desktop/Screenshot 2023-02-12 at 11.17.15 PM (2).png
+    - id: pair_3dafe3ec25a64006b7894b5e15d8eed6
+      name: post_photos
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/mac/Desktop/Screenshot 2023-05-29 at 10.20.26 PM.png
+    - id: pair_a29783b56a6743589a0db1185e20ef5b
+      name: post_photos
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/mac/Desktop/Screenshot 2022-11-12 at 4.17.53 PM.png
+      disabled: true
 parameters: []
 headers:
   - name: Content-Type
