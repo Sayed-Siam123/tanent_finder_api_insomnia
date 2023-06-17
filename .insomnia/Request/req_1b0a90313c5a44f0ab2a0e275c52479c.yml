@@ -1,0 +1,28 @@
+_id: req_1b0a90313c5a44f0ab2a0e275c52479c
+type: Request
+parentId: fld_6cdd2c5463804982bd3681090e994dc2
+modified: 1687008529463
+created: 1686947158333
+url: "{{ _.live_url }}/api/v1/area/create-area"
+name: Create Area
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"area_name" : "Tangail"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686416426509
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

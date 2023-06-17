@@ -1,0 +1,28 @@
+_id: req_2f3a46c6a9954b8d9dd0462d0acf2a02
+type: Request
+parentId: fld_6cdd2c5463804982bd3681090e994dc2
+modified: 1686947158345
+created: 1686947158345
+url: http://127.0.0.1:3000/api/v1/area/update-area/d2ddd333-6a2e-4f4f-8d5e-c222ebed0d1c
+name: Update Single Area with uuid
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"area_name" : "Cox's Bazar"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686344537465.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

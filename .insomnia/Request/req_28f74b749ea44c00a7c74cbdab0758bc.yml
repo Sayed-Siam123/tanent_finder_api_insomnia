@@ -1,0 +1,21 @@
+_id: req_28f74b749ea44c00a7c74cbdab0758bc
+type: Request
+parentId: fld_6cdd2c5463804982bd3681090e994dc2
+modified: 1686950345360
+created: 1686947158338
+url: "{{ _.live_url }}/api/v1/area/get-all-area"
+name: Get All Area
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686375347055.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

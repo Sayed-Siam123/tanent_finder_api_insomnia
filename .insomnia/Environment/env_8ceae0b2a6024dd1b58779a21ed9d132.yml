@@ -1,14 +1,18 @@
 _id: env_8ceae0b2a6024dd1b58779a21ed9d132
 type: Environment
 parentId: env_6def9a2f3f0c48e7aeaba19f125917b4
-modified: 1686553204047
+modified: 1687008521296
 created: 1686467739173
 name: Dev 2 Env
 data:
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJtc2lhbUBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTY4NjU1MzE4NywiZXhwIjoxNjk0MzI5MTg3fQ.bbFMBe-Jht9Nkk7DyFhw_EZJ67rQoRdmMEZlJ6IYWwk
+  live_url: http://roomiefy.xyz:3000
+  local_url: http://127.0.0.1:3000
 dataPropertyOrder:
   "&":
     - token
+    - live_url
+    - local_url
 color: null
 isPrivate: false
 metaSortKey: 1686467739173
