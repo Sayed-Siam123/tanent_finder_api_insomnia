@@ -1,9 +1,10 @@
 _id: req_b5840eb326274fd486d80da097f32390
 type: Request
 parentId: fld_6cdd2c5463804982bd3681090e994dc2
-modified: 1686947158342
+modified: 1688488091132
 created: 1686947158342
-url: http://127.0.0.1:3000/api/v1/area/get-one-area/d2ddd333-6a2e-4f4f-8d5e-c222ebed0d1c
+url: "{{ _.live_url
+  }}/api/v1/area/get-one-area/d2ddd333-6a2e-4f4f-8d5e-c222ebed0d1c"
 name: Get Single Area with uuid
 description: ""
 method: GET

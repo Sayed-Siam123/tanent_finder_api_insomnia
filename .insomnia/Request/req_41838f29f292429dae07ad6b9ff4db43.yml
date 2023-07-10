@@ -1,9 +1,9 @@
 _id: req_41838f29f292429dae07ad6b9ff4db43
 type: Request
 parentId: fld_add83622a1bd47f194d6429cdbe037c9
-modified: 1686333029544
+modified: 1688488120189
 created: 1686330942411
-url: http://127.0.0.1:3000/api/v1/role/get-all-role
+url: "{{ _.live_url }}/api/v1/role/get-all-role"
 name: Get All Role
 description: ""
 method: GET

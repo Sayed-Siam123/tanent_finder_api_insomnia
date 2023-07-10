@@ -1,9 +1,9 @@
 _id: req_ba23f450af3d41749fa08e4deaeb0589
 type: Request
 parentId: fld_746a7b6426a746d8ac5d3244ab6bc123
-modified: 1686467774573
+modified: 1688487988944
 created: 1686334267602
-url: http://127.0.0.1:3000/api/v1/authentication/signup
+url: "{{ _.live_url }}/api/v1/authentication/signup"
 name: Registration
 description: ""
 method: POST

@@ -1,9 +1,9 @@
 _id: req_16a10b14b66942f0874dd635340bfbd9
 type: Request
 parentId: fld_add83622a1bd47f194d6429cdbe037c9
-modified: 1686333086720
+modified: 1688488133397
 created: 1686332993463
-url: http://127.0.0.1:3000/api/v1/role/update-role/dc7850e1-e680-4f6a-884b-c7315043621e
+url: "{{ _.live_url }}/api/v1/role/update-role/dc7850e1-e680-4f6a-884b-c7315043621e"
 name: Update Role with uuid
 description: ""
 method: PUT

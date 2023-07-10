@@ -1,9 +1,9 @@
 _id: req_2f3a46c6a9954b8d9dd0462d0acf2a02
 type: Request
 parentId: fld_6cdd2c5463804982bd3681090e994dc2
-modified: 1686947158345
+modified: 1688488098681
 created: 1686947158345
-url: http://127.0.0.1:3000/api/v1/area/update-area/d2ddd333-6a2e-4f4f-8d5e-c222ebed0d1c
+url: "{{ _.live_url }}/api/v1/area/update-area/d2ddd333-6a2e-4f4f-8d5e-c222ebed0d1c"
 name: Update Single Area with uuid
 description: ""
 method: PUT

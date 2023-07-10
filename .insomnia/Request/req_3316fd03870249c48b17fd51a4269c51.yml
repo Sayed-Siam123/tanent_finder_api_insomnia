@@ -1,9 +1,9 @@
 _id: req_3316fd03870249c48b17fd51a4269c51
 type: Request
 parentId: fld_746a7b6426a746d8ac5d3244ab6bc123
-modified: 1686467780038
+modified: 1688924875734
 created: 1686338661791
-url: http://127.0.0.1:3000/api/v1/authentication/login
+url: "{{ _.live_url }}/api/v1/authentication/login"
 name: Login
 description: ""
 method: POST
@@ -11,8 +11,10 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email" : "msiam@gmail.com",
-    	"password" : "12345678"
+    	"email" : "msiam18@gmail.com",
+    	"password" : "12345678",
+    	"device_id": "1122354s",
+    	"device_type": "android"
     }
 parameters: []
 headers:

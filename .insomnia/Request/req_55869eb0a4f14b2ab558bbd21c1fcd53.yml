@@ -1,9 +1,9 @@
 _id: req_55869eb0a4f14b2ab558bbd21c1fcd53
 type: Request
 parentId: fld_6cdd2c5463804982bd3681090e994dc2
-modified: 1686947158349
+modified: 1688488105655
 created: 1686947158349
-url: http://127.0.0.1:3000/api/v1/area/delete-area/08289053-f8c5-46ba-8ca0-8c193630a11f
+url: "{{ _.live_url }}/api/v1/area/delete-area/08289053-f8c5-46ba-8ca0-8c193630a11f"
 name: Delete Single Area with uuid
 description: ""
 method: DELETE
