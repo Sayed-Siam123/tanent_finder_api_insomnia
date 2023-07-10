@@ -1,0 +1,54 @@
+_id: req_03d24fe5d4ef4bd796481612ed8d488b
+type: Request
+parentId: fld_027b3682e4d0439c8bad43642c3904c0
+modified: 1689008848961
+created: 1688924456367
+url: "{{ _.live_url }}/api/v1/user/editProfile"
+name: Edit Profile
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: first_name
+      value: Sayed
+      id: pair_4ad6052bf6904bde87d759b81db07ee4
+    - id: pair_6701946ee8de4e4c8e4fef08ba728234
+      name: last_name
+      value: Siam
+      description: ""
+    - id: pair_30acdb50b27e426ba713863821cb6785
+      name: phone_number
+      value: "01303083513"
+      description: ""
+    - id: pair_5551a1aa8e6b4cbfa745b129da2702d2
+      name: email
+      value: msiam188@gmail.com
+      description: ""
+    - id: pair_16d09792f9d44d6b91ca9fb7021907ef
+      name: user_photo
+      value: ""
+      description: ""
+      disabled: true
+      type: file
+      fileName: /Users/mac/Downloads/index copy.JPG
+parameters:
+  - id: pair_e690c4a75f074219ba175a19e9c5f7a9
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: false
+metaSortKey: -1687669570513.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

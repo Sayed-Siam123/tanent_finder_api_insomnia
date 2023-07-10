@@ -1,0 +1,28 @@
+_id: req_821498ac841f492a909f0cf73acbdc99
+type: Request
+parentId: fld_027b3682e4d0439c8bad43642c3904c0
+modified: 1688921209480
+created: 1688920822060
+url: "{{ _.live_url }}/api/v1/user/profile"
+name: Get Profile
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_e690c4a75f074219ba175a19e9c5f7a9
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  disabled: false
+metaSortKey: -1688920822060
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
