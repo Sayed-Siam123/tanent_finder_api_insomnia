@@ -1,13 +1,13 @@
-_id: env_253bea53f52c4259a26917844a8a9875
+_id: env_fdaee17c341c4d4292c36053341018f6
 type: Environment
 parentId: env_6def9a2f3f0c48e7aeaba19f125917b4
-modified: 1689065018742
-created: 1688487898422
-name: Local ENV
+modified: 1689065037500
+created: 1689065003224
+name: Local Dev Office
 data:
   token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJtc2lhbUBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTY4ODkyMDk3MiwiZXhwIjoxNjk2Njk2OTcyfQ.rZfHSF17Tmz3d9GO1Wyywda1xZxLtSaeycTIkkKLzno
-  live_url: http://192.168.1.103:3000
-  local_url: http://192.168.1.103:3000
+  live_url: http://192.168.16.204:3000
+  local_url: http://192.168.16.204:3000
 dataPropertyOrder:
   "&":
     - token
@@ -15,4 +15,4 @@ dataPropertyOrder:
     - local_url
 color: null
 isPrivate: false
-metaSortKey: 1688487898422
+metaSortKey: 1689065003224

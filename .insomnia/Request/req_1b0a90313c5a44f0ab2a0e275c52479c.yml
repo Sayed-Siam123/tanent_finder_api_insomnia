@@ -1,7 +1,7 @@
 _id: req_1b0a90313c5a44f0ab2a0e275c52479c
 type: Request
 parentId: fld_6cdd2c5463804982bd3681090e994dc2
-modified: 1688919457891
+modified: 1689065274412
 created: 1686947158333
 url: "{{ _.live_url }}/api/v1/area/create-area"
 name: Create Area
@@ -11,9 +11,9 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"area_name" : "Mirpur",
-    	"latitude" : "23.8227119923115",
-    	"longitude" : "90.3654329224733"
+    	"area_name" : "Bashundhora R/A",
+    	"latitude" : "23.82141916711602",
+    	"longitude" : "90.45257555366186"
     }
 parameters: []
 headers:
