@@ -1,0 +1,21 @@
+_id: req_4e683631ea344da78b7b7a34fe357585
+type: Request
+parentId: fld_ae030dfd202147f3be3d433777cf13f6
+modified: 1689244312709
+created: 1689243957885
+url: "{{ _.live_url }}/api/v1/facility/get-one-facility/2"
+name: Get Single Area with uuid
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686354807328.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

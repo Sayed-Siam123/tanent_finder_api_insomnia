@@ -1,0 +1,21 @@
+_id: req_09cf6ea709be47d7a69b5e28d3fa8a4c
+type: Request
+parentId: fld_ae030dfd202147f3be3d433777cf13f6
+modified: 1689244175895
+created: 1689243957881
+url: "{{ _.live_url }}/api/v1/facility/get-all-facilities"
+name: Get All Facilities
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686375347055.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

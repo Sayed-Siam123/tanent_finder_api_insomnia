@@ -1,0 +1,29 @@
+_id: req_3e4fadc2f13245fd8dda3707e62bc32b
+type: Request
+parentId: fld_ae030dfd202147f3be3d433777cf13f6
+modified: 1689244578239
+created: 1689243957878
+url: "{{ _.live_url }}/api/v1/facility/create-facilities"
+name: Create Facility
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"facility_name" : "Wifi",
+    	"icon" : "wifi"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686416426509
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

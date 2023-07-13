@@ -1,0 +1,21 @@
+_id: req_586908fbce3146a498b8ebd71c1d0894
+type: Request
+parentId: fld_ae030dfd202147f3be3d433777cf13f6
+modified: 1689244556711
+created: 1689243958050
+url: "{{ _.live_url }}/api/v1/facility/delete-facility/1"
+name: Delete Single Area with uuid
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1686339402533.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,29 @@
+_id: req_4c54b6073fac417e85d0596b8095e59c
+type: Request
+parentId: fld_ae030dfd202147f3be3d433777cf13f6
+modified: 1689244471065
+created: 1689243958048
+url: "{{ _.live_url }}/api/v1/facility/update-facility/2"
+name: Update Single Area with uuid
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"facilities_name" : "Parking",
+    	"icon" : "park"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686344537465.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
