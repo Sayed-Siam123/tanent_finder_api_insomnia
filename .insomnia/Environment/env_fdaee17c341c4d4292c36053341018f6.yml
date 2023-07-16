@@ -1,11 +1,11 @@
 _id: env_fdaee17c341c4d4292c36053341018f6
 type: Environment
 parentId: env_6def9a2f3f0c48e7aeaba19f125917b4
-modified: 1689405146744
+modified: 1689485824009
 created: 1689065003224
 name: Local Dev Office
 data:
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJtc2lhbUBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTY4ODkyMDk3MiwiZXhwIjoxNjk2Njk2OTcyfQ.rZfHSF17Tmz3d9GO1Wyywda1xZxLtSaeycTIkkKLzno
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwiZW1haWwiOiJtc2lhbUBnbWFpbC5jb20iLCJyb2xlIjoidXNlciIsImlhdCI6MTY4OTQ4NTc5OSwiZXhwIjoxNjk3MjYxNzk5fQ.W3gFVlFhuXv7lrZRF3j-ic5oNw8o6qBVIRT0UEIJx9w
   live_url: http://192.168.16.204:3000
   local_url: http://192.168.16.204:3000
 dataPropertyOrder:
