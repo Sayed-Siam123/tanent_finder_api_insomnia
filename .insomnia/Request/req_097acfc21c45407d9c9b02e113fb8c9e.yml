@@ -1,7 +1,7 @@
 _id: req_097acfc21c45407d9c9b02e113fb8c9e
 type: Request
 parentId: fld_5e5c0ac321a54943a48fdbab5f6ac065
-modified: 1688488038972
+modified: 1689411875903
 created: 1686418318967
 url: "{{ _.live_url }}/api/v1/tenant/create-post"
 name: Create Tenant Post
@@ -28,7 +28,7 @@ body:
       description: ""
     - id: pair_f95fa182fb08404ab76a8496b01f2f68
       name: contact_number
-      value: "01673832180"
+      value: "01773832180"
       description: ""
     - id: pair_d4e54b610c6148aaa3edd240c2460ac4
       name: location
@@ -56,24 +56,28 @@ body:
       description: ""
       type: file
       fileName: /Users/mac/Desktop/Screenshot 2023-05-13 at 11.23.51 AM.png
+      disabled: false
     - id: pair_db7c9fde3b0c462ca8b6532052212050
       name: post_photos
       value: ""
       description: ""
       type: file
       fileName: /Users/mac/Desktop/Screenshot 2023-05-13 at 11.23.51 AM.png
+      disabled: false
     - id: pair_f2d7c51e1f714f93941587a0b47d5c78
       name: post_photos
       value: ""
       description: ""
       type: file
       fileName: /Users/mac/Desktop/Screenshot 2023-02-12 at 11.17.15 PM (2).png
+      disabled: false
     - id: pair_3dafe3ec25a64006b7894b5e15d8eed6
       name: post_photos
       value: ""
       description: ""
       type: file
       fileName: /Users/mac/Desktop/Screenshot 2023-05-29 at 10.20.26 PM.png
+      disabled: false
     - id: pair_a29783b56a6743589a0db1185e20ef5b
       name: post_photos
       value: ""
@@ -81,6 +85,19 @@ body:
       type: file
       fileName: /Users/mac/Desktop/Screenshot 2022-11-12 at 4.17.53 PM.png
       disabled: true
+    - id: pair_a6c14005863d4069b848c581368c9b47
+      name: room_facilities
+      value: '"{\"room_type\":[{\"id\":0,\"name\":\"Master\",\"isSelected\":true},{\"id\":1,\"name\":\"Semi
+        Master\",\"isSelected\":false},{\"id\":2,\"name\":\"Partitioned\",\"isSelected\":false}],\"room_share\":[{\"name\":\"Yes\",\"isSelected\":true},{\"name\":\"No\",\"isSelected\":false}],\"washroom_type\":[{\"id\":0,\"name\":\"Combined\",\"isSelected\":true},{\"id\":0,\"name\":\"Attached\",\"isSelected\":false}],\"veranda\":[{\"name\":\"Yes\",\"isSelected\":true},{\"name\":\"No\",\"isSelected\":false}],\"maid\":[{\"name\":\"Yes\",\"isSelected\":true},{\"name\":\"No\",\"isSelected\":false}],\"other_facilities\":[{\"id\":0,\"icon\":\"wifi\",\"name\":\"WIFI\",\"isSelected\":true},{\"id\":1,\"icon\":\"parking\",\"name\":\"Parking\",\"isSelected\":false},{\"id\":2,\"icon\":\"meal\",\"name\":\"Meal
+        system\",\"isSelected\":false},{\"id\":3,\"icon\":\"freeze\",\"name\":\"Freeze\",\"isSelected\":false},{\"id\":4,\"icon\":\"lift\",\"name\":\"Lift\",\"isSelected\":false},{\"id\":6,\"icon\":\"guard\",\"name\":\"Guard\",\"isSelected\":false},{\"id\":7,\"icon\":\"friendly_env\",\"name\":\"Friendly
+        environment\",\"isSelected\":false}],\"isNegotiable\":[{\"name\":\"Yes\",\"isSelected\":true},{\"name\":\"No\",\"isSelected\":false}]}"'
+      description: ""
+      type: text
+      multiline: true
+    - id: pair_5ff35d61f0dc4f8f83baac7f90ad8078
+      name: from_month
+      value: January
+      description: ""
 parameters: []
 headers:
   - name: Content-Type

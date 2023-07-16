@@ -1,7 +1,7 @@
 _id: req_3e4fadc2f13245fd8dda3707e62bc32b
 type: Request
 parentId: fld_ae030dfd202147f3be3d433777cf13f6
-modified: 1689244578239
+modified: 1689278807382
 created: 1689243957878
 url: "{{ _.live_url }}/api/v1/facility/create-facilities"
 name: Create Facility
@@ -11,8 +11,8 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"facility_name" : "Wifi",
-    	"icon" : "wifi"
+    	"facility_name" : "Food",
+    	"icon" : "food"
     }
 parameters: []
 headers:
