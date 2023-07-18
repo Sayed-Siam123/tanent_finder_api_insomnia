@@ -1,7 +1,7 @@
 _id: req_03d24fe5d4ef4bd796481612ed8d488b
 type: Request
 parentId: fld_027b3682e4d0439c8bad43642c3904c0
-modified: 1689008848961
+modified: 1689703634850
 created: 1688924456367
 url: "{{ _.live_url }}/api/v1/user/editProfile"
 name: Edit Profile
@@ -23,15 +23,15 @@ body:
       description: ""
     - id: pair_5551a1aa8e6b4cbfa745b129da2702d2
       name: email
-      value: msiam188@gmail.com
+      value: msiam@gmail.com
       description: ""
     - id: pair_16d09792f9d44d6b91ca9fb7021907ef
       name: user_photo
       value: ""
       description: ""
-      disabled: true
+      disabled: false
       type: file
-      fileName: /Users/mac/Downloads/index copy.JPG
+      fileName: /Users/mac/Downloads/333645410_896002731634839_244327330104902178_n.jpg
 parameters:
   - id: pair_e690c4a75f074219ba175a19e9c5f7a9
     name: ""

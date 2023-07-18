@@ -1,0 +1,25 @@
+_id: req_5ede91253cb944929f10eb61fee184ad
+type: Request
+parentId: fld_5e5c0ac321a54943a48fdbab5f6ac065
+modified: 1689698528928
+created: 1689698389584
+url: http://192.168.1.104:3000/uploads/PostImages/1-posts-0a7f56d7-2f63-4232-8a90-20e056094b10-IMG_20201122_210003_405.jpg
+name: Get post Image
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+  prefix: ""
+  disabled: false
+metaSortKey: -1686417254459.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

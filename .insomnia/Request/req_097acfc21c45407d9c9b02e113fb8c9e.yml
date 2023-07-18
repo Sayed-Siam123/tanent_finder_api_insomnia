@@ -1,7 +1,7 @@
 _id: req_097acfc21c45407d9c9b02e113fb8c9e
 type: Request
 parentId: fld_5e5c0ac321a54943a48fdbab5f6ac065
-modified: 1689411875903
+modified: 1689704243140
 created: 1686418318967
 url: "{{ _.live_url }}/api/v1/tenant/create-post"
 name: Create Tenant Post
@@ -55,36 +55,29 @@ body:
       value: ""
       description: ""
       type: file
-      fileName: /Users/mac/Desktop/Screenshot 2023-05-13 at 11.23.51 AM.png
+      fileName: /Users/mac/Downloads/1665496536818_1665496403106_0_PXL_20221008_064531571_FAST_x1.jpg
       disabled: false
     - id: pair_db7c9fde3b0c462ca8b6532052212050
       name: post_photos
       value: ""
       description: ""
       type: file
-      fileName: /Users/mac/Desktop/Screenshot 2023-05-13 at 11.23.51 AM.png
+      fileName: /Users/mac/Downloads/IMG_20190428_173135_2.jpg
       disabled: false
     - id: pair_f2d7c51e1f714f93941587a0b47d5c78
       name: post_photos
       value: ""
       description: ""
       type: file
-      fileName: /Users/mac/Desktop/Screenshot 2023-02-12 at 11.17.15 PM (2).png
-      disabled: false
-    - id: pair_3dafe3ec25a64006b7894b5e15d8eed6
-      name: post_photos
-      value: ""
-      description: ""
-      type: file
-      fileName: /Users/mac/Desktop/Screenshot 2023-05-29 at 10.20.26 PM.png
+      fileName: /Users/mac/Downloads/WhatsApp Image 2023-04-27 at 12.00.07 PM.jpeg
       disabled: false
     - id: pair_a29783b56a6743589a0db1185e20ef5b
       name: post_photos
       value: ""
       description: ""
       type: file
-      fileName: /Users/mac/Desktop/Screenshot 2022-11-12 at 4.17.53 PM.png
-      disabled: true
+      fileName: /Users/mac/Downloads/IMG_20201122_210003_405.jpg
+      disabled: false
     - id: pair_a6c14005863d4069b848c581368c9b47
       name: room_facilities
       value: '"{\"room_type\":[{\"id\":0,\"name\":\"Master\",\"isSelected\":true},{\"id\":1,\"name\":\"Semi

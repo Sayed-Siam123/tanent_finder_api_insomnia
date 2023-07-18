@@ -1,0 +1,40 @@
+_id: req_ac9c83f107284d80be3add591ff4aaec
+type: Request
+parentId: wrk_69104dd92088477097a7202e66c64f52
+modified: 1689694399756
+created: 1689693843082
+url: "{{ _.live_url }}/api/v1/tenant/post-image"
+name: Post photos rnd
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: post_photos
+      value: ""
+      id: pair_66cbf6fb8f4e49eaa947cf74b4a8313d
+      type: file
+      fileName: /Users/mac/Downloads/1665496536818_1665496403106_0_PXL_20221008_064531571_FAST_x1.jpg
+      disabled: false
+    - id: pair_b1b77a3cbb194321a4d18daf22719bcc
+      name: post_photos
+      value: ""
+      description: ""
+      type: file
+      fileName: /Users/mac/Downloads/room_image.png
+      disabled: false
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{{ _.token }}"
+metaSortKey: -1666655581460.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
